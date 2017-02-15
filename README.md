@@ -39,3 +39,8 @@ steps.
 
 1. Run `composer install`.
 2. Run `composer site-update` to perform configuration updates.
+
+## References
+
+This project used [drupal-composer/drupal-project](https://github.com/drupal-composer/drupal-project) as a starting point.
+Check that project out, in case you have questions on the composer workflow.
