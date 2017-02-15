@@ -1,0 +1,28 @@
+# This is a command configuration to be used with https://github.com/derhasi/buddy
+commands:
+  # calls the global composer command from the root folder
+  composer:
+    cmd: composer
+    workingDir: $DIR
+  # Calls a local drupal command in ./vendor/bin/drupal
+  drupal:
+    cmd: drupal
+    cmdDir: $DIR/vendor/bin
+    workingDir: $DIR/web
+  # Calls a local drush command in ./vendor/bin/drush
+  drush:
+    cmd: drush
+    cmdDir: $DIR/vendor/bin
+    workingDir: $DIR/web
+  # Shortcut for the site install procedure
+  si:
+    cmd: composer site-install
+    workingDir: $DIR
+  ## Shortcut for the site update procedure
+  up:
+    cmd: composer site-update
+    workingDir: $DIR
+  uli:
+    cmd: drush uli -l dugmucdemo.dev
+    cmdDir: $DIR/vendor/bin
+    workingDir: $DIR/web
