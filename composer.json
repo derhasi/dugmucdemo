@@ -48,6 +48,14 @@
         ],
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "site-install": [
+            "chmod 777 web/sites/default web/sites/default/settings.php",
+            "./vendor/bin/drush site-install config_installer --root=./web --yes"
+        ],
+        "site-update": [
+            "./vendor/bin/drush updatedb --root=./web --yes",
+            "./vendor/bin/drush config-import --root=./web --yes"
         ]
     },
     "extra": {
