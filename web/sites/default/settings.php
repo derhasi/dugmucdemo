@@ -244,7 +244,9 @@
  *   );
  * @endcode
  */
-$config_directories = array();
+$config_directories = array(
+  CONFIG_SYNC_DIRECTORY => $app_root . '/../environments/_default/config/sync',
+);
 
 /**
  * Settings:
@@ -266,7 +268,7 @@ $config_directories = array();
  *
  * @see install_select_profile()
  */
-# $settings['install_profile'] = '';
+$settings['install_profile'] = 'minimal';
 
 /**
  * Salt for one-time login links, cancel links, form tokens, etc.
@@ -285,7 +287,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'xyAlNlEmNaqBMYuP5t258eyu8u4dtr-cBrHGL1VObofXAmLGAklAxMuY-X4g1oBljkJtRB7blQ';
 
 /**
  * Deployment identifier.
