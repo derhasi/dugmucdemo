@@ -19,7 +19,7 @@ commands:
     cmd: composer site-install
     workingDir: $DIR
   ## Shortcut for the site update procedure
-  up:
+  su:
     cmd: composer site-update
     workingDir: $DIR
   uli:
