@@ -13,6 +13,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nuvoleweb/bootstrap_patterns.git"
         }
     ],
     "require": {
@@ -25,7 +29,10 @@
         "drupal/ui_patterns": "^1.0@dev",
         "drupal/paragraphs_collection": "^1.0.0@dev",
         "drupal/layout_plugin": "^1.0@alpha",
-        "drupal/ds": "^2.6"
+        "drupal/ds": "^2.6",
+        "drupal/components": "^1.0",
+        "drupal/bootstrap_patterns": "dev-master",
+        "drupal/bootstrap": "^3.2"
     },
     "require-dev": {
         "drupal/console": "1.*",

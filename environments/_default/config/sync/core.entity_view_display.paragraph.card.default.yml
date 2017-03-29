@@ -1,0 +1,45 @@
+uuid: 1e24c796-1132-424c-a411-81e966c89d39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card.field_body
+    - field.field.paragraph.card.field_title
+    - paragraphs.paragraphs_type.card
+  module:
+    - ds
+third_party_settings:
+  ds:
+    layout:
+      id: pattern_card
+      path: ''
+      library: ''
+      disable_css: false
+      entity_classes: no_classes
+      settings:
+        pattern:
+          field_templates: default
+    regions:
+      title:
+        - field_title
+      body:
+        - field_body
+id: paragraph.card.default
+targetEntityType: paragraph
+bundle: card
+mode: default
+content:
+  field_body:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden: {  }

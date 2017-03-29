@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c2e19b40abe61d7abb98c387afe7f5e",
+    "content-hash": "8f11a740439d036eb1dd3a41de141562",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -929,6 +929,141 @@
             "time": "2017-01-27 10:00:33"
         },
         {
+            "name": "drupal/bootstrap",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/bootstrap",
+                "reference": "8.x-3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap-8.x-3.2.zip",
+                "reference": null,
+                "shasum": "1638ded543a50a5dce558c2a8177a945a3e5a4cb"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.2",
+                    "datestamp": "1487640876"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "markcarver",
+                    "homepage": "https://www.drupal.org/user/501638"
+                },
+                {
+                    "name": "neardark",
+                    "homepage": "https://www.drupal.org/user/661076"
+                },
+                {
+                    "name": "sylus",
+                    "homepage": "https://www.drupal.org/user/339714"
+                },
+                {
+                    "name": "wundo",
+                    "homepage": "https://www.drupal.org/user/25523"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/bootstrap",
+            "support": {
+                "source": "http://cgit.drupalcode.org/bootstrap"
+            }
+        },
+        {
+            "name": "drupal/bootstrap_patterns",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nuvoleweb/bootstrap_patterns.git",
+                "reference": "2237adaa74df2bfa225db44646233452474b83be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nuvoleweb/bootstrap_patterns/zipball/2237adaa74df2bfa225db44646233452474b83be",
+                "reference": "2237adaa74df2bfa225db44646233452474b83be",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Nuvole Web",
+                    "email": "info@nuvole.org",
+                    "homepage": "http://nuvole.org"
+                }
+            ],
+            "description": "UI Patterns example theme based on Bootstrap.",
+            "homepage": "https://www.drupal.org/project/ui_patterns",
+            "keywords": [
+                "bootstrap",
+                "drupal",
+                "ui_patterns"
+            ],
+            "support": {
+                "source": "https://github.com/nuvoleweb/bootstrap_patterns/tree/master",
+                "issues": "https://github.com/nuvoleweb/bootstrap_patterns/issues"
+            },
+            "time": "2017-03-24 10:23:27"
+        },
+        {
+            "name": "drupal/components",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/components",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/components-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "adb1872a655466d575c2d3396f7ca2daba0a2918"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1461060840"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095"
+                }
+            ],
+            "description": "Registers “component libraries” defined in modules and themes with the Twig system",
+            "homepage": "https://www.drupal.org/project/components",
+            "support": {
+                "source": "http://cgit.drupalcode.org/components"
+            }
+        },
+        {
             "name": "drupal/config_installer",
             "version": "1.4.0",
             "source": {
@@ -1158,7 +1293,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/ds-8.x-2.6.zip",
-                "reference": null,
+                "reference": "8.x-2.6",
                 "shasum": "6cec63a526b31f90b57d8958348280fb05ff8bec"
             },
             "require": {
@@ -1327,7 +1462,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/layout_plugin-8.x-1.0-alpha23.zip",
-                "reference": null,
+                "reference": "8.x-1.0-alpha23",
                 "shasum": "c79992e2f52ac6a7c8dc0706512f2c70fc9f5e11"
             },
             "require": {
@@ -5301,6 +5436,7 @@
         "drupal/ui_patterns": 20,
         "drupal/paragraphs_collection": 20,
         "drupal/layout_plugin": 15,
+        "drupal/bootstrap_patterns": 20,
         "drupal/devel": 5
     },
     "prefer-stable": true,
