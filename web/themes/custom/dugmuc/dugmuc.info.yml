@@ -1,0 +1,10 @@
+name: DUGMuc
+type: theme
+description: The DUG Muc Demo theme
+package: Other
+core: 8.x
+libraries:
+  - dugmuc/global-styling
+
+base theme: bartik
+
