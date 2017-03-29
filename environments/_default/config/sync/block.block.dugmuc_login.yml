@@ -1,0 +1,22 @@
+uuid: 19a9bfa6-572f-4db7-911c-a6a670f11580
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - dugmuc
+_core:
+  default_config_hash: 4QlSnWBcxxKMIFRM8sbu_MjSkcp3NjGgnVrc-lynQHI
+id: dugmuc_login
+theme: dugmuc
+region: sidebar_first
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

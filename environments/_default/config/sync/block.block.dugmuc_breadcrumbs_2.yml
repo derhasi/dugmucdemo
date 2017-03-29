@@ -1,0 +1,20 @@
+uuid: 061eae17-604a-4466-ac3d-5c4adff6698f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dugmuc
+id: dugmuc_breadcrumbs_2
+theme: dugmuc
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

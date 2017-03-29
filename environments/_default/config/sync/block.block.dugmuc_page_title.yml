@@ -1,0 +1,20 @@
+uuid: c075eeb3-7d03-4e6c-9f29-9625d2bba8ae
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dugmuc
+_core:
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+id: dugmuc_page_title
+theme: dugmuc
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

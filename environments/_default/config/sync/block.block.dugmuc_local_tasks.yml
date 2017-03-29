@@ -1,0 +1,22 @@
+uuid: f15155b1-0412-4517-98ca-6c1ceaf218bf
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dugmuc
+_core:
+  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+id: dugmuc_local_tasks
+theme: dugmuc
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
