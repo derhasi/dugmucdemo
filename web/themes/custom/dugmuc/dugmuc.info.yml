@@ -6,5 +6,10 @@ core: 8.x
 libraries:
   - dugmuc/global-styling
 
+component-libraries:
+  dugmucpatterns:
+    paths:
+      - patterns
+
 base theme: bartik
 

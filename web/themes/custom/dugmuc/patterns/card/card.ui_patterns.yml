@@ -1,0 +1,20 @@
+card:
+  label: Card
+  description: A card
+  fields:
+    title:
+      type: text
+      label: Title
+      description: the headline text.
+      preview: This is the headline
+    body:
+      type: text
+      label: Body
+      description: The content of the card.
+      preview: This is a card content. It may contain some more text.
+  libraries:
+    - card:
+       css:
+         component:
+           card.css: {}
+  use: "@dugmucpatterns/card/card.html.twig"

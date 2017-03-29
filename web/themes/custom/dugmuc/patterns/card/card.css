@@ -1,0 +1,21 @@
+.card {
+  border: 2px solid #1d84c3;
+  border-radius: 1em;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.card__title {
+  background: #1d84c3;
+  color: white;
+  padding: 0.5em;
+  margin: 0;
+}
+.card__body {
+  background: white;
+  padding: 0.5em;
+}
+.card__image {
+  width: 100%;
+}
