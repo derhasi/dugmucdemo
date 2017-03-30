@@ -1,0 +1,16 @@
+<marquee>
+  Paragraph Text with Image
+</marquee>
+{#<div class="pti">#}
+  {#<div class="pti__image">#}
+    {#{{ content.field_image }}#}
+  {#</div>#}
+  {#<div class="pit__text">#}
+    {#{{ content.field_text }}#}
+  {#</div>#}
+{#</div>#}
+
+{% include "@dugmucpatterns/card/card.html.twig" with {
+  title: content.field_text,
+  body: content.field_image
+}%}
