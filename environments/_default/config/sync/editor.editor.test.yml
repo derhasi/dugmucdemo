@@ -1,0 +1,31 @@
+uuid: 5546def9-fd84-432e-8ebf-f755733a1f96
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.test
+  module:
+    - ckeditor
+format: test
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Styles
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: "p.class1|P1\r\np.class2|P2\r\nspan.class1|C1\r\nspan.class2|C2"
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

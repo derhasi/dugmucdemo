@@ -1,0 +1,17 @@
+uuid: 2f8f3ca1-c241-497a-bd94-009cc93600d4
+langcode: en
+status: true
+dependencies: {  }
+name: test
+format: test
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <p class="class1 class2"> <span class="class1 class2">'
+      filter_html_help: true
+      filter_html_nofollow: false

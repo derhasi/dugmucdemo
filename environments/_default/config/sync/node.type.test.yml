@@ -1,10 +1,10 @@
-uuid: 20f1919b-79df-45ed-8b86-9cb14cb77492
+uuid: 5a37fc6a-e3d7-4db0-b1dc-5fab5235af10
 langcode: en
 status: true
 dependencies: {  }
-name: Article
-type: article
-description: asdfghjkl
+name: test
+type: test
+description: ''
 help: ''
 new_revision: true
 preview_mode: 1
